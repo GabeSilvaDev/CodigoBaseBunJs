@@ -1,0 +1,19 @@
+{
+  "name": "_teste",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun --watch run index.js"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5",
+    "os": "^0.1.2"
+  }
+}
